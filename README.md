@@ -4,7 +4,7 @@
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-[![Pattern](https://img.shields.io/badge/Pattern-Producer%20Consumer-orange.svg)]()
+[![Pattern](https://img.shields.io/badge/Pattern-Producer%20Consumer%20and%20Sales%20Data%20Analysis-orange.svg)]()
 
 
 
