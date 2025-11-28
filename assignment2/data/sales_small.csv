@@ -1,0 +1,52 @@
+date,region,product,units_sold,unit_price
+2024-01-01,North,Keyboard,10,25.50
+2024-01-01,South,Mouse,20,15.00
+2024-01-02,East,Laptop,3,750.00
+2024-01-03,West,Keyboard,8,25.50
+2024-01-03,North,Mouse,15,15.00
+2024-01-04,East,Monitor,5,120.00
+2024-01-05,South,Keyboard,12,25.50
+2024-01-05,West,Laptop,2,760.00
+2024-01-06,North,Mouse,25,15.00
+2024-01-06,South,Keyboard,14,25.50
+2024-01-07,East,Monitor,7,115.00
+2024-01-07,North,Laptop,1,780.00
+2024-01-08,West,Keyboard,9,26.00
+2024-01-08,South,Mouse,18,14.50
+2024-01-09,East,Monitor,6,119.00
+2024-01-09,West,Laptop,3,765.00
+2024-01-10,South,Keyboard,11,25.00
+2024-01-10,North,Mouse,30,15.00
+2024-01-11,East,Monitor,4,121.00
+2024-01-11,West,Keyboard,10,26.00
+2024-01-12,North,Laptop,2,770.00
+2024-01-12,South,Keyboard,13,25.00
+2024-01-13,East,Monitor,5,118.00
+2024-01-13,West,Mouse,19,14.00
+2024-01-14,North,Keyboard,15,26.00
+2024-01-14,South,Mouse,22,14.50
+2024-01-15,East,Monitor,8,120.00
+2024-01-15,West,Laptop,1,780.00
+2024-01-16,South,Keyboard,10,25.50
+2024-01-16,North,Mouse,23,15.00
+2024-01-17,West,Mouse,16,14.00
+2024-01-17,East,Monitor,7,118.00
+
+# --- EDGE CASES BELOW ---
+
+# Missing fields
+2024-01-18,,Keyboard,10,25.50
+# Invalid numeric value
+2024-01-18,North,Mouse,abc,15.00
+# Missing product
+2024-01-19,South,,12,25.50
+# Negative units (invalid)
+2024-01-19,East,Monitor,-3,120.00
+# Missing price
+2024-01-20,West,Keyboard,10,
+# Empty row
+
+# Entirely broken row
+hello,this,is,not,valid
+# Wrong number of columns
+2024-01-21,North,Keyboard,10
